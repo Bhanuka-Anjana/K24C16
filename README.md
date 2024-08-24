@@ -1,5 +1,8 @@
 # K24C16 EEPROM Library 
 
+This is a library for the K24C16 EEPROM. It has 256 pages of 16 bytes each and communicates over I2C.
+
+```
         --------------------
         |  *                |
   A0  - | 1    K24C16     8 | - VCC
@@ -8,6 +11,8 @@
   GND - | 4               5 | - SDA
         |                   | 
         ---------------------
+
+```
 
 - This is a library for the K24C16 EEPROM. 
 - It has 256 pages of 16 bytes each.
